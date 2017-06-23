@@ -1,0 +1,188 @@
+$white: #fff;
+$black: #000;
+
+@import 'normalize';
+@import 'box-sizing';
+
+body
+{
+    font-family: 'Helvetica Neue LT W01_65 Md', Helvetica, sans-serif;
+    // font-family:'Helvetica Neue LT W01_66 Md It', Helvetica, sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+
+    padding: 23px;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: $white;
+    background: $black;
+}
+
+.container
+{
+    padding-bottom: 90px;
+}
+
+h2
+{
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 23px;
+
+    margin: 0;
+}
+
+p
+{
+    margin: 23px 0 0;
+    &:first-child
+    {
+        margin: 0;
+    }
+}
+
+ul
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+}
+
+a
+{
+    text-decoration: none;
+
+    color: $white;
+    &:hover
+    {
+        font-style: italic;
+    }
+}
+
+.row
+{
+    *zoom: 1;
+    &:before,
+    &:after
+    {
+        display: table;
+
+        content: '';
+    }
+    &:after
+    {
+        clear: both;
+    }
+}
+
+.header
+{
+    .language
+    {
+        margin-top: 47px;
+        @media screen and (min-width: 1140px)
+        {
+            margin-top: 0;
+        }
+    }
+    .dot,
+    .surname,
+    .en,
+    .slash,
+    .jp
+    {
+        display: inline-block;
+    }
+    .dot
+    {
+        margin-left: 7px;
+    }
+    .surname
+    {
+        margin-left: 102px;
+    }
+    .en
+    {
+        @media screen and (min-width: 1140px)
+        {
+            margin-left: 128px;
+        }
+    }
+    .slash
+    {
+        margin-left: 12px;
+    }
+    .jp
+    {
+        margin-left: 12px;
+    }
+}
+
+.content
+{
+    @media screen and (min-width: 1140px)
+    {
+        margin-top: 45px;
+    }
+}
+
+.clients,
+.services
+{
+    margin-top: 23px;
+    @media screen and (min-width: 1140px)
+    {
+        margin-top: 0;
+    }
+}
+
+.col
+{
+    @media screen and (min-width: 1140px)
+    {
+        float: left;
+
+        width: 380px;
+        margin-left: 10px;
+    }
+    &:first-child
+    {
+        margin-left: 0;
+    }
+    ul
+    {
+        padding-left: 14px;
+    }
+}
+
+#mti_wfs_colophon img
+{
+    display: none;
+}
+
+.icons
+{
+    float: right;
+    ul
+    {
+        list-style-type: none;
+        overflow: hidden;
+        li
+        {
+            float: left;
+
+            margin-left: 15px;
+            &:first-child
+            {
+                margin-left: 0;
+            }
+            svg
+            {
+                height: 32px;
+            }
+        }
+    }
+}

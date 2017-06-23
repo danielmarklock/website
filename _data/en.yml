@@ -1,0 +1,65 @@
+meta:
+  description: Meta description
+  title: Meta title
+
+intro: Design & Art Direction<br />For art, fashion, culture<br />& other matters
+address: London, United Kingdom
+email: hello@daniellock.co.uk
+telephone: +44 (0)7989 463 999
+
+social_links:
+  - name: Instagram
+    url: https://www.instagram.com/danielmlock/
+  - name: LinkedIn
+    url: https://uk.linkedin.com/in/danielmarklock/
+
+clients_title: Clients
+clients:
+- name: Apple
+  url: https://www.apple.com/
+- name: Astley Clarke
+  url: https://www.astleyclarke.com/
+- name: Belmond
+  url: http://www.belmond.com/
+- name: Belstaff
+  url: http://www.belstaff.co.uk/home/
+- name: Carolina Herrera
+  url: http://www.carolinaherrera.com/
+- name: Canary Wharf
+  url: http://residential.canarywharf.com/one-park-drive/
+- name: COS
+  url: http://www.cosstores.com/gb/
+- name: Channel 4
+  url: http://www.channel4.com/
+- name: Être Cécile
+  url: https://www.etrececile.com/
+- name: Mulberry
+- name: Harrods
+- name: Herzog &amp; De Meuron
+- name: House of Holland
+- name: Net-a-Porter
+- name: Selfridges
+- name: Harvey Nichols
+- name: Hill and Friends
+- name: JOHN Lewis Menswear
+- name: Qasimi
+- name: Soho House
+- name: Tate Gallery
+- name: The Cultivist
+- name: V&amp;A Museum
+- name: Vitsœ
+- name: Yasmin Sewell
+- name: William Tempest
+
+services_title: Services
+services:
+  - Art direction
+  - Branding
+  - Content
+  - Editorial design
+  - Environments
+  - Film & Animation
+  - Naming
+  - Packaging
+  - Research
+  - Web design
