@@ -1,5 +1,5 @@
-$white: #fff;
-$black: #000;
+$white: #FFFFFF;
+$black: #000000;
 
 @import 'normalize';
 @import 'box-sizing';
@@ -168,20 +168,34 @@ a
     float: right;
     ul
     {
-        list-style-type: none;
         overflow: hidden;
+
+        list-style-type: none;
         li
         {
             float: left;
 
+            height: 32px;
             margin-left: 15px;
             &:first-child
             {
                 margin-left: 0;
             }
-            svg
+            &.uk
             {
-                height: 32px;
+                svg
+                {
+                    height: 26px;
+                    margin-top: 3px;
+                }
+            }
+            &.eu,
+            &.world
+            {
+                svg
+                {
+                    height: 32px;
+                }
             }
         }
     }
