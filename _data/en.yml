@@ -4,7 +4,7 @@ meta:
 
 intro: Design & Art Direction<br />For art, fashion, culture<br />& other matters
 address: London, United Kingdom
-email: hello@daniellock.co.uk
+email: studio@daniellock.co.uk
 telephone: +44 (0)7989 463 999
 
 social_links:
@@ -34,22 +34,40 @@ clients:
 - name: Être Cécile
   url: https://www.etrececile.com/
 - name: Mulberry
+  url: https://www.etrececile.com/
 - name: Harrods
+  url: https://www.harrods.com
 - name: Herzog &amp; De Meuron
+  url: http://residential.canarywharf.com/one-park-drive/
 - name: House of Holland
+  url: https://www.houseofholland.co.uk
 - name: Net-a-Porter
+  url: https://www.net-a-porter.com
 - name: Selfridges
+  url: http://www.selfridges.com/
 - name: Harvey Nichols
+  url: http://www.harveynichols.com/
 - name: Hill and Friends
-- name: JOHN Lewis Menswear
+  url: https://www.hillandfriends.com/
+- name: John Lewis Menswear
+  url: https://www.johnlewis.com
 - name: Qasimi
+  url: https://www.qasimi.com/
 - name: Soho House
+  url: https://www.sohohouse.com/
 - name: Tate Gallery
+  url: http://www.tate.org.uk/
 - name: The Cultivist
+  url: https://www.thecultivist.com/
 - name: V&amp;A Museum
+  url: https://www.vam.ac.uk/
 - name: Vitsœ
+  url: https://www.vitsoe.com
 - name: Yasmin Sewell
+  url: http://yasminsewell.com/
 - name: William Tempest
+  url: http://www.williamtempest.com/
+
 
 services_title: Services
 services:
@@ -57,9 +75,7 @@ services:
   - Branding
   - Content
   - Editorial design
-  - Environments
   - Film & Animation
-  - Naming
   - Packaging
   - Research
   - Web design
