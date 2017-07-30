@@ -7,9 +7,8 @@ $black: #000000;
 body
 {
     font-family: 'Helvetica Neue LT W01_65 Md', Helvetica, sans-serif;
-    // font-family:'Helvetica Neue LT W01_66 Md It', Helvetica, sans-serif;
-    font-size: 19px;
-    line-height: 23px;
+    font-size: 16px;
+    line-height: 19px;
 
     padding: 23px;
 
@@ -18,21 +17,31 @@ body
 
     color: $white;
     background: $black;
+    @media screen and (min-width: 1140px)
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
 }
 
 .container
 {
+    max-width: 1280px;
     padding-bottom: 90px;
-    max-width:1280px;
 }
 
 h2
 {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: normal;
-    line-height: 23px;
+    line-height: 19px;
 
     margin: 0;
+    @media screen and (min-width: 1140px)
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
 }
 
 p
@@ -160,10 +169,11 @@ a
     margin-top: 90px;
     @media screen and (min-width: 1140px)
     {
+        position: absolute;
+        top: 23px;
+        right: 23px;
+
         margin-top: 0;
-        position:absolute;
-        top:23px;
-        right:23px;
     }
     ul
     {
