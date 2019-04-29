@@ -74,7 +74,6 @@ a
 
 .row
 {
-    *zoom: 1;
     &:before,
     &:after
     {
@@ -88,45 +87,6 @@ a
     }
 }
 
-.header
-{
-    .language
-    {
-        margin-top: 47px;
-        @media screen and (min-width: 1140px)
-        {
-            margin-top: 0;
-        }
-    }
-    .dot,
-    .surname,
-    .en,
-    .slash,
-    .jp
-    {
-        display: inline-block;
-    }
-    .surname
-    {
-        margin-left: 102px;
-    }
-    .en
-    {
-        @media screen and (min-width: 1140px)
-        {
-            margin-left: 128px;
-        }
-    }
-    .slash
-    {
-        margin-left: 12px;
-    }
-    .jp
-    {
-        margin-left: 12px;
-    }
-}
-
 .content
 {
     @media screen and (min-width: 1140px)
@@ -135,13 +95,40 @@ a
     }
 }
 
-.clients,
+.projects,
 .services
 {
     margin-top: 23px;
     @media screen and (min-width: 1140px)
     {
         margin-top: 0;
+    }
+}
+
+.projects
+{
+    ul > li
+    {
+        & + li
+        {
+            margin-top: 23px;
+        }
+        & > ul
+        {
+            padding-left: 14px;
+            li + li
+            {
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.services
+{
+    ul
+    {
+        padding-left: 14px;
     }
 }
 
@@ -157,10 +144,6 @@ a
     &:first-child
     {
         margin-left: 0;
-    }
-    ul
-    {
-        padding-left: 14px;
     }
 }
 

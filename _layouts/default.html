@@ -7,13 +7,7 @@
     <main class="container">
       <div class="header row">
         <div class="col">
-          <p>D<span class="dot">.</span><span class="surname">Lock</span></p>
-        </div>
-        <div class="language col">
-          <p><a href="/"><span class="en">{{ site.data[page.language].meta.en_en }}</span></a><span class="slash">/</span><a href="/jp"><span class="jp">{{ site.data[page.language].meta.jp_en }} {{ site.data[page.language].meta.jp_jp }}</span></a></p>
-        </div>
-        <div class="col">
-          &nbsp;
+          <p>Daniel Lock</p>
         </div>
       </div>
       <div class="content row">
@@ -30,25 +24,38 @@
             {% endfor %}
           </p>
         </div>
-<!--         <div class="clients col">
-          <h2>{{ site.data[page.language].clients_title }}</h2>
+        <div class="projects col">
+          <h2>{{ site.data[page.language].projects_title }}</h2>
+          {% if site.data[page.language].studios %}
           <ul>
-            {% for client in site.data[page.language].clients %}
-            {% if client.url %}
-            <li><a href="{{ client.url }}" target="_blank">{{ client.name }}</a></li>
-            {% else %}
-            <li>{{ client.name }}</li>
-            {% endif %}
+            {% for studio in site.data[page.language].studios %}
+            <li>
+              {% if studio.url %}<a href="{{ studio.url }}" target="_blank">{{ studio.name }}</a>
+              {% else %}{{ studio.name }}{% endif %}
+              {% if studio.projects %}
+              <ul>
+                {% for project in studio.projects %}
+                <li>
+                  {% if project.url %}<a href="{{ project.url }}" target="_blank">{{ project.name }}</a>
+                  {% else %}{{ project.name }}{% endif %}
+                </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </li>
             {% endfor %}
           </ul>
-        </div> -->
+          {% endif %}
+        </div>
         <div class="services col">
           <h2>{{ site.data[page.language].services_title }}</h2>
+          {% if site.data[page.language].services %}
           <ul>
             {% for service in site.data[page.language].services %}
             <li>{{ service }}</li>
             {% endfor %}
           </ul>
+          {% endif %}
         </div>
       </div>
       <div class="icons">
