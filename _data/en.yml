@@ -19,72 +19,46 @@ social_links:
 projects_title: Studios/Projects
 studios:
   - name: Apple
-    url: https://www.apple.com/
     projects:
-      - iTunes
+      - name: iTunes
 
   - name: Construct
-    url: https://www.constructlondon.com/
     projects:
       - name: Astley Clarke
-        url: https://www.astleyclarke.com/
       - name: Belmond Hotels
-        url: http://www.belmond.com/
       - name: Belstaff
-        url: http://www.belstaff.co.uk/home/
       - name: Canary Wharf Group
-        url: http://residential.canarywharf.com/one-park-drive/
       - name: Caroline Bucci
       - name: Carolina Herrera
-        url: http://www.carolinaherrera.com/
       - name: COS
-        url: http://www.cosstores.com/gb/
       - name: Être Cécile
-        url: https://www.etrececile.com/
       - name: Harrods
-        url: https://www.harrods.com
       - name: Harvey Nichols
-        url: http://www.harveynichols.com/
       - name: Herzog &amp; De Meuron
-        url: http://residential.canarywharf.com/one-park-drive/
       - name: Hill and Friends
-        url: https://www.hillandfriends.com/
       - name: Le Grand Bellevue Hotel
       - name: Mulberry
-        url: https://www.etrececile.com/
       - name: Net-a-Porter
-        url: https://www.net-a-porter.com
       - name: Radiance Cleanse
       - name: The Cultivist
-        url: https://www.thecultivist.com/
 
   - name: Egelnick &amp; Webb
     projects:
       - name: House of Holland
-        url: https://www.houseofholland.co.uk
       - name: John Lewis Menswear
-        url: https://www.johnlewis.com
       - name: Qasimi
-        url: https://www.qasimi.com/
       - name: William Tempest
-        url: http://www.williamtempest.com/
 
   - name: Nb
     url: http://nbstudio.co.uk/
     projects:
       - name: National Portrait Gallery
-        url: https://www.npg.org.uk/
       - name: Soho House
-        url: https://www.sohohouse.com/
       - name: Tate Modern
-        url: http://www.tate.org.uk/
       - name: V&amp;A Museum
-        url: https://www.vam.ac.uk/
       - name: Vitsœ
-        url: https://www.vitsoe.com
 
   - name: Wednesday
-    url: http://www.wearewednesday.com/
     projects:
       - name: M&S Autograph
 
