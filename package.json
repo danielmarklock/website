@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "serve": "bundle exec jekyll serve",
+    "deploy": "git push origin master:gh-pages"
+  }
+}
